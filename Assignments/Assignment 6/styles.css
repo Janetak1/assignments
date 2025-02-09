@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    body {
+        display: flex;
+        justify-content: center;  /* Centers horizontally */
+        align-items: center;  /* Centers vertically */
+        min-height: 100vh;  /* Ensures full viewport height */
+        margin: 0;  /* Remove any default margins */
+        padding: 20px; /* Add some spacing */
+    }
+    
+/* Container */
+.container {
+    display: flex;
+    background: white;
+    width: 70%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Left Section */
+.info-section {
+    width: 40%;
+    padding: 40px;
+    text-align: left;
+    background-color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.info-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.info-section p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Right Section - Form */
+.form-section {
+    width: 60%;
+    padding: 40px;
+    background: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register-btn {
+    width: 100%;
+    background: #27ae60;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Terms and Privacy */
+.terms-text {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+}
+
+.terms-text a {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .info-section, .form-section {
+        width: 100%;
+        text-align: center;
+    }
+}

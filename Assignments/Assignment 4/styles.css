@@ -1,0 +1,53 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* 1. First Section (Intro) */
+.intro {
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.highlight-green {
+    color: #1E7347; /* Green color for 'passion' and 'logistics' */
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* 2. Gray Divider */
+.divider {
+    background-color: #666; /* Gray color */
+    height: 10px;
+    margin: 20px 0;
+}
+
+/* 3. Second Section (Info) */
+.info {
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.info-header {
+    background-color: #FFC107; /* Yellow background */
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 15px;
+}

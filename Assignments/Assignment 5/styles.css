@@ -1,0 +1,73 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #aba6c3; /* Light purple background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Card styles */
+.card {
+    background: white;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+/* Label at the top */
+.label {
+    background-color: #fbe08f; /* Yellow background */
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 14px;
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Details Section */
+.details {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 span {
+    font-size: 16px;
+    color: gray;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 10px;
+}

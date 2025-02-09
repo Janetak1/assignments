@@ -1,0 +1,44 @@
+/* 1. Set the background color and center everything */
+body {
+    background-color: #181818;  /* Dark background */
+    display: flex;              /* Enables flexbox */
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;        /* Centers vertically */
+    height: 100vh;              /* Full screen height */
+    margin: 0;                  /* Remove default margin */
+    font-family: Arial, sans-serif;  /* Use a clean, modern font */
+}
+
+/* 2. Style the white card */
+.card {
+    background: white;             /* White background */
+    width: 400px;                   /* Set the width */
+    border-radius: 10px;            /* Round the corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    padding: 20px;                  /* Add spacing inside */
+    position: relative;              /* Needed for header positioning */
+}
+
+/* 3. Style the pink header */
+.card-header {
+    background: #ff0080;       /* Hot pink background */
+    color: black;              /* Black text */
+    font-weight: bold;         /* Bold text */
+    font-size: 1.5em;          /* Bigger font size */
+    padding: 15px;             /* Add spacing inside */
+    border-top-left-radius: 10px; /* Round top-left corner */
+    border-top-right-radius: 10px; /* Round top-right corner */
+    text-align: center;        /* Center the text */
+    position: absolute;        /* Position above the card */
+    top: -20px;                /* Move up to peek out */
+    left: 10px;                /* Align with card */
+    right: 10px;               /* Stretch across */
+}
+
+/* 4. Style the text inside the card */
+.card-body p {
+    font-size: 1em;          /* Normal text size */
+    color: black;            /* Black text */
+    line-height: 1.5;        /* Add space between lines */
+    margin-top: 40px;        /* Push text down to avoid overlap */
+}
